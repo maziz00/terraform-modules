@@ -18,7 +18,7 @@
 
 ## The Problem
 
-Terraform's official modules are too generic. Community modules are too opinionated. You end up writing custom modules from scratch every time — then maintaining them alone.
+Terraform's official modules are too generic. Community modules are too opinionated. You end up writing custom modules from scratch every time then maintaining them alone.
 
 These modules come from real enterprise deployments. They handle the edge cases the docs don't mention: private networking, IAM least-privilege, encryption at rest, and multi-environment promotion.
 
@@ -144,20 +144,20 @@ terraform plan
 
 What makes this different from `terraform-aws-modules/eks`:
 
-- **Private API endpoint** by default — no public cluster access
-- **Mixed node groups** — Spot + On-Demand in the same cluster with priority-based scheduling
-- **IRSA baked in** — IAM Roles for Service Accounts configured out of the box
-- **Cluster Autoscaler ready** — IAM policy and service account created automatically
-- **aws-auth managed** — no manual `kubectl edit configmap` post-deploy
-- **Encryption at rest** — KMS envelope encryption for etcd secrets
+- **Private API endpoint** : by default no public cluster access
+- **Mixed node groups** : Spot + On-Demand in the same cluster with priority-based scheduling
+- **IRSA baked in** : IAM Roles for Service Accounts configured out of the box
+- **Cluster Autoscaler ready** : IAM policy and service account created automatically
+- **aws-auth managed** : no manual `kubectl edit configmap` post-deploy
+- **Encryption at rest** : KMS envelope encryption for etcd secrets
 
 ## Module: gcp-gke — Highlights
 
-- **Private cluster** with authorized networks — no public nodes
-- **Workload Identity** enabled by default (no node-level service accounts)
-- **Binary Authorization** policy support for container image verification
-- **Preemptible + standard node pools** for cost optimization
-- **Shielded nodes** with Secure Boot and vTPM
+- **Private cluster** : with authorized networks no public nodes
+- **Workload Identity** : enabled by default (no node-level service accounts)
+- **Binary Authorization** : policy support for container image verification
+- **Preemptible + standard node pools** : for cost optimization
+- **Shielded nodes** : with Secure Boot and vTPM
 
 ---
 
@@ -207,11 +207,11 @@ terraform-modules/
 
 ## Design Principles
 
-1. **Every variable has a `description`** — no guessing what inputs mean
-2. **Every module has `examples/`** — working code, not just docs
-3. **Sensible defaults** — secure out of the box, customize when needed
-4. **No provider blocks in modules** — the caller controls provider configuration
-5. **Pinned provider versions** — no surprise breaking changes
+1. **Every variable has a `description`** no guessing what inputs mean
+2. **Every module has `examples/`** working code, not just docs
+3. **Sensible defaults** secure out of the box, customize when needed
+4. **No provider blocks in modules** the caller controls provider configuration
+5. **Pinned provider versions** no surprise breaking changes
 
 ---
 
@@ -227,7 +227,7 @@ terraform-modules/
 
 ## Author
 
-**Mohamed AbdelAziz** — Senior DevOps Architect
+**Mohamed AbdelAziz** Senior DevOps Architect
 12 years building cloud infrastructure for MENA enterprises.
 
 - [LinkedIn](https://www.linkedin.com/in/maziz00/) | [Medium](https://medium.com/@maziz00) | [Upwork](https://www.upwork.com/freelancers/maziz00)
