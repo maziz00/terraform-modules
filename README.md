@@ -144,20 +144,20 @@ terraform plan
 
 What makes this different from `terraform-aws-modules/eks`:
 
-- **Private API endpoint** : by default no public cluster access
-- **Mixed node groups** : Spot + On-Demand in the same cluster with priority-based scheduling
-- **IRSA baked in** : IAM Roles for Service Accounts configured out of the box
-- **Cluster Autoscaler ready** : IAM policy and service account created automatically
-- **aws-auth managed** : no manual `kubectl edit configmap` post-deploy
-- **Encryption at rest** : KMS envelope encryption for etcd secrets
+- **Private API endpoint** by default no public cluster access
+- **Mixed node groups** Spot + On-Demand in the same cluster with priority-based scheduling
+- **IRSA baked in** IAM Roles for Service Accounts configured out of the box
+- **Cluster Autoscaler ready** IAM policy and service account created automatically
+- **aws-auth managed** no manual `kubectl edit configmap` post-deploy
+- **Encryption at rest** KMS envelope encryption for etcd secrets
 
 ## Module: gcp-gke — Highlights
 
-- **Private cluster** : with authorized networks no public nodes
-- **Workload Identity** : enabled by default (no node-level service accounts)
-- **Binary Authorization** : policy support for container image verification
-- **Preemptible + standard node pools** : for cost optimization
-- **Shielded nodes** : with Secure Boot and vTPM
+- **Private cluster** with authorized networks no public nodes
+- **Workload Identity** enabled by default (no node-level service accounts)
+- **Binary Authorization** policy support for container image verification
+- **Preemptible + standard node pools** for cost optimization
+- **Shielded nodes** with Secure Boot and vTPM
 
 ---
 
