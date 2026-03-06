@@ -227,7 +227,7 @@ terraform-modules/
 
 ## Author
 
-**Mohamed AbdelAziz** — Senior DevOps Architect, CKA/CKAD/AWS SA
+**Mohamed AbdelAziz** — Senior DevOps Architect
 12 years building cloud infrastructure for MENA enterprises.
 
 - [LinkedIn](https://www.linkedin.com/in/maziz00/) | [Medium](https://medium.com/@maziz00) | [Upwork](https://www.upwork.com/freelancers/maziz00)
