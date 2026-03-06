@@ -234,16 +234,6 @@ terraform-modules/
 
 ---
 
-## The DevOps Dispatch — Weekly Newsletter
-
-Every week: **1 real-world insight, 1 tool deep-dive, 1 war story from MENA enterprise.**
-No hype. No fluff. Just what works in production.
-
-**[Subscribe free → devopsdispatch.beehiiv.com](https://devopsdispatch.beehiiv.com)**
-*Free K8s Production Checklist when you subscribe.*
-
----
-
 ## License
 
 MIT — use freely. Star the repo if it saved you time.
