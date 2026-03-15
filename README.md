@@ -225,7 +225,7 @@ terraform-modules/
 
 ---
 
-## Author
+## About Me
 
 **Mohamed AbdelAziz** Senior DevOps Architect
 12 years building cloud infrastructure for MENA enterprises, IaC, Cloud, Infra
